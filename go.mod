@@ -1,4 +1,4 @@
-module datachassis/go-oauth2/couchdb.v3
+module github.com/DataChassis/go-oauth2-couchdb
 
 go 1.13
 
