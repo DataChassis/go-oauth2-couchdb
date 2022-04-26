@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"gopkg.in/oauth2.v3"
-	"gopkg.in/oauth2.v3/models"
-
 	_ "github.com/go-kivik/couchdb/v3" // The CouchDB driver
 	kivik "github.com/go-kivik/kivik/v3"
+
+	"github.com/go-oauth2/oauth2/v4"
+	"github.com/go-oauth2/oauth2/v4/models"
 )
 
 type newDocument struct {
